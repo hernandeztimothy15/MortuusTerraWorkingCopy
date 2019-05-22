@@ -1,0 +1,5 @@
+name: MortuusTerra
+main: me.wickersty.mortuusterra.MortuusTerra
+description: MortuusTerra official plugin
+version: 1.0
+api-version: 1.13
