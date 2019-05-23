@@ -25,7 +25,7 @@ public class FileManager {
 	
 	public void saveFiles() {
 		
-		instance.getSupplyDropManager().saveData(); //null pointer exception error onDisable
+		instance.getSupplyDropManager().saveData(); //error 2: null pointer exception onDisable
 		instance.getProtectionManager().saveProtectionsToDisk();
 		instance.getPlayerManager().savePlayersToDisk();
 		instance.getCraterManager().saveCratersToDisk();

@@ -121,7 +121,7 @@ public class ConfigManager {
 	public void loadConfig() {
 		
 		// worlds
-		worldsEnabled = config.getString("settings.worlds.enabled").split(","); //null pointer exception error onEnable
+		worldsEnabled = config.getString("settings.worlds.enabled").split(","); // error 3: null pointer exception onEnable
 		worldBorderEnabled = config.getBoolean("settings.worlds.border.enabled");
 		worldBorderSize = config.getInt("settings.worlds.border.size");
 		worldBorderEvent = config.getString("settings.worlds.border.event");
