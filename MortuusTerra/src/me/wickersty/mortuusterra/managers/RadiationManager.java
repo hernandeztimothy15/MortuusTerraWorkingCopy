@@ -163,7 +163,7 @@ public class RadiationManager {
 			armor[whichArmor].setDurability((short)(armor[whichArmor].getDurability() + 2));
 			
 		}
-		
+		//if armor is gold, %25 chance to absord rad damage
 		if (armor[whichArmor].getType().name().contains("GOLD")) {
 			
 			if (Math.random() > 0.25) {
@@ -173,7 +173,7 @@ public class RadiationManager {
 			}
 			
 		}
-
+		//if armor is NOT gold, 
 		if ((armor[whichArmor].getType() == Material.LEATHER_HELMET) && (armor[whichArmor].getDurability() > 56))
 			armor[whichArmor].setAmount(0);
 		else if ((armor[whichArmor].getType() == Material.LEATHER_CHESTPLATE) && (armor[whichArmor].getDurability() > 81))
